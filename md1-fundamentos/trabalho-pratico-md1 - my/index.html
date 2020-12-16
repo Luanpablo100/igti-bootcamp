@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático 1</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Números por extenso</h1>
+    <div id="content">
+        <label for="range-number">Escolha um número entre 0 e 999:</label>
+        <div class="input-field">
+            <input type="range" max="999" id="input-range">
+        </div>
+        <div class="input-field">
+            <span>Número atual</span>
+            <input type="text" readonly id="input-number">
+        </div>
+        <div class="input-field">
+            <span>Número por extenso</span>
+            <input type="text" readonly id="input-text" value="zero">
+        </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
